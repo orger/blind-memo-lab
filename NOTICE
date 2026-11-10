@@ -1,0 +1,24 @@
+2×2 Alg Trainer
+
+The algorithm catalog incorporates data from Alg-Trainers by Malte Ihlefeld:
+https://github.com/mihlefeld/Alg-Trainers
+Source snapshot: 34b5b16b47639ff21122c7ab46a044966d41ea00
+File: 2x2-EG-Trainer/algs_info.json
+
+That project is distributed under the GNU General Public License version 3.
+The complete license is included in LICENSE. This application and its modified
+catalog are distributed under GPL-3.0. The original source snapshot, catalog
+generation script, corrections, and verification tests are included here.
+
+Modifications in this application include: CLL/EG1/EG2 extraction; adding all
+oriented-top cases; algorithm notation normalization; explicit starting setups,
+final AUFs and cube-frame corrections; state-based matching of alternatives;
+and correction of one source algorithm's case assignment.
+
+Additional algorithm sequences were consulted from J Perm (Dylan Wang):
+https://jperm.net/algs/2x2/cll
+https://jperm.net/algs/2x2/eg-1
+https://jperm.net/algs/2x2/pbl
+Only move sequences and source identifiers are included; no site code or images
+are included. Algorithms are mechanically verified. These sources do not endorse
+this application. More detail and reproduction instructions: docs/SOURCES.md.

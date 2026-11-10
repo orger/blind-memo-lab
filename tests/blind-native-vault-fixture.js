@@ -1,0 +1,1 @@
+export const TEST_VAULT = {"version":1,"kdf":"PBKDF2-SHA256","iterations":600000,"salt":"RYnC44HRoeo0pFyyC9xR0w==","iv":"C+a+huGzaYlJw1o4","ciphertext":"gBRg/091VU1mPPZ7FMoq61z8vUMEPwct0jGn9eKpTDkcSZhORp4Jr5mYQwnPDF/JIdPHAxvj3H3+VmumS4BoxvOcS8EjsywOcGbVizTbrfV60/694Vc7OaOlzfScMcgA3bItBTyi"};

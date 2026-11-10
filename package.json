@@ -1,0 +1,19 @@
+{
+  "name": "blind-memo-lab",
+  "version": "1.0.1",
+  "private": true,
+  "type": "module",
+  "description": "Offline letter-pair and blindfold cube memo practice",
+  "license": "GPL-3.0-only",
+  "engines": {
+    "node": ">=22"
+  },
+  "scripts": {
+    "test": "node --test tests/blind-*.test.js",
+    "dev": "python3 -m http.server 8766 --bind 127.0.0.1 --directory app/blind",
+    "build:blind:web": "node scripts/build-blind-web.mjs",
+    "build:blind:mac": "bash scripts/build-blind-mac.sh",
+    "test:blind:native": "bash scripts/test-blind-native.sh",
+    "package:blind": "python3 scripts/package-blind.py"
+  }
+}
